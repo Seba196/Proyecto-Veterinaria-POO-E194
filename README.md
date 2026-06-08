@@ -188,14 +188,28 @@ Aplicación de escritorio desarrollada en Java SE con Swing y PostgreSQL.
 #### Estructura del Proyecto:
 VeterinariaApp
 ├── conexion/
-│   └── Conexion.java        — Conexión a PostgreSQL
+│   └── Conexion.java
 ├── modelo/
-│   └── Usuario.java         — Clase modelo
+│   ├── Usuario.java
+│   ├── Producto.java
+│   ├── Proveedor.java
+│   ├── Categoria.java
+│   └── Movimiento.java
 ├── dao/
-│   └── UsuarioDAO.java      — Operaciones CRUD
+│   ├── UsuarioDAO.java
+│   ├── LoginDAO.java
+│   ├── ProductoDAO.java
+│   ├── ProveedorDAO.java
+│   ├── CategoriaDAO.java
+│   └── MovimientoDAO.java
 └── vista/
-├── MenuPrincipal.java   — Ventana principal con menú
-└── UsuarioVista.java    — Interfaz CRUD de usuarios
+    ├── LoginVista.java
+    ├── MenuPrincipal.java
+    ├── UsuarioVista.java
+    ├── ProductoVista.java
+    ├── ProveedorVista.java
+    ├── CategoriaVista.java
+    └── MovimientoVista.java
 
 #### Capturas de pantalla:
 <img width="1920" height="1023" alt="{1308FDCC-A845-4705-83D5-609C7AEA68A0}" src="https://github.com/user-attachments/assets/6db69ca2-3cdc-48a8-87d9-fa5d749a73e1" />
@@ -220,4 +234,50 @@ VeterinariaApp
 2. Ejecutar el archivo `script_veterinaria.sql` en pgAdmin
 3. Abrir el proyecto en NetBeans
 4. En `Conexion.java` cambiar la contraseña por la de tu PostgreSQL
-5. Ejecutar `MenuPrincipal.java` con clic derecho → Run File
+5. Ejecutar `LoginVista.java` con clic derecho → Run File
+
+
+## TERCERA ENTREGA
+
+### Nuevas Funcionalidades Implementadas
+**Login con roles y permisos**
+- Autenticación con correo y contraseña
+- 3 roles: Admin, Veterinario y Empleado
+- Restricción de acceso por módulo según rol
+
+| Módulo | Admin | Veterinario | Empleado |
+|---|---|---|---|
+| Usuarios | ✅ | ❌ | ❌ |
+| Productos | ✅ | ✅ | ✅ |
+| Proveedores | ✅ | ❌ | ❌ |
+| Categorias | ✅ | ✅ | ❌ |
+| Movimientos | ✅ | ✅ | ✅ |
+
+**CRUD de Productos**
+- Registro completo con precio, stock, fecha de vencimiento
+- Vinculación con proveedor y categoría
+
+**CRUD de Proveedores**
+- Vista de productos ofrecidos por cada proveedor
+
+**CRUD de Categorías**
+- Clasificación de productos por tipo
+
+**Registro de Movimientos**
+- Entradas y salidas de stock
+- Actualización automática del inventario
+- Filtros por producto y por fecha
+
+#### Capturas de pantalla:
+<img width="509" height="469" alt="image" src="https://github.com/user-attachments/assets/bf463f80-b096-476e-bb6e-6088e5356955" />
+<img width="504" height="463" alt="image" src="https://github.com/user-attachments/assets/8ea6de1b-ec0c-48ff-81b2-6e1e18173453" />
+<img width="1110" height="739" alt="image" src="https://github.com/user-attachments/assets/a6fe1ee2-568e-4fea-9c16-b01226b48e7a" />
+<img width="1163" height="673" alt="image" src="https://github.com/user-attachments/assets/c4579f4f-d0d2-42cd-b5a4-13f3e29e4934" />
+<img width="1228" height="711" alt="image" src="https://github.com/user-attachments/assets/ae85d79e-7a97-474a-acc7-a473558753e1" />
+<img width="1111" height="736" alt="image" src="https://github.com/user-attachments/assets/4246d958-39a1-47fb-a9e0-7b9ddc563a63" />
+<img width="1457" height="716" alt="image" src="https://github.com/user-attachments/assets/94ea3ff8-dd98-4348-a284-7c6affc6fa7c" />
+<img width="1107" height="739" alt="image" src="https://github.com/user-attachments/assets/215415b4-4c53-41cd-91ea-1207434500e0" />
+<img width="1107" height="737" alt="image" src="https://github.com/user-attachments/assets/7c2c1a3f-45e7-44a4-91be-d82d6332b601" />
+
+
+
