@@ -318,13 +318,21 @@ VeterinariaApp
 
 #### Capturas de pantalla:
 <img width="509" height="469" alt="image" src="https://github.com/user-attachments/assets/bf463f80-b096-476e-bb6e-6088e5356955" />
+
 <img width="504" height="463" alt="image" src="https://github.com/user-attachments/assets/8ea6de1b-ec0c-48ff-81b2-6e1e18173453" />
+
 <img width="1110" height="739" alt="image" src="https://github.com/user-attachments/assets/a6fe1ee2-568e-4fea-9c16-b01226b48e7a" />
+
 <img width="1163" height="673" alt="image" src="https://github.com/user-attachments/assets/c4579f4f-d0d2-42cd-b5a4-13f3e29e4934" />
+
 <img width="1228" height="711" alt="image" src="https://github.com/user-attachments/assets/ae85d79e-7a97-474a-acc7-a473558753e1" />
+
 <img width="1111" height="736" alt="image" src="https://github.com/user-attachments/assets/4246d958-39a1-47fb-a9e0-7b9ddc563a63" />
+
 <img width="1457" height="716" alt="image" src="https://github.com/user-attachments/assets/94ea3ff8-dd98-4348-a284-7c6affc6fa7c" />
+
 <img width="1107" height="739" alt="image" src="https://github.com/user-attachments/assets/215415b4-4c53-41cd-91ea-1207434500e0" />
+
 <img width="1107" height="737" alt="image" src="https://github.com/user-attachments/assets/7c2c1a3f-45e7-44a4-91be-d82d6332b601" />
 
 
