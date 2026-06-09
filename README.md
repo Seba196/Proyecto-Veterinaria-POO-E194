@@ -77,7 +77,7 @@ Incluye:
 - Creación de las 5 tablas con sus relaciones
 - Datos de prueba (categorías, proveedores, usuarios y productos)
 
-Archivo: 
+Archivo: https://github.com/Seba196/Proyecto-Veterinaria-POO-E194/blob/main/Codigo_BD_Proyecto.sql
 
 ----TABLAS----
 --TABLA CATEGORIAS--
